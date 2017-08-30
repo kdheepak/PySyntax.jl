@@ -8,27 +8,40 @@ end
 
 function traverse!(expr::Expr)
 
-    if expr.head == :ref
-        expr.head = :call
-        unshift!(expr.args, :get)
+    # (x::String:y::String) => slice(x, y)
+    if expr.head == :(:)
+        expr.head = :(call)
+        if length(expr.args) == 2
+            push!(expr.args, :nothing)
+        end
+        unshift!(expr.args, :(pybuiltin("slice")))
+    end
+
+    # df["name"] => get(df, :name)
+    if expr.head == :(ref)
+        expr.head = :(call)
+        unshift!(expr.args, :(get))
     end
 
     for (i, arg) in enumerate(expr.args)
         traverse!(expr.args[i])
     end
 
-    if expr.head == :.
-        expr.head = :ref
+    # df.loc => df[:loc]
+    if expr.head == :(.)
+        expr.head = :(ref)
     end
 
     return expr
 end
 
 macro Py(expr::Expr)
-
     traverse!(expr)
+    return esc(expr)
+end
 
-    return expr
+macro Py(expr::Symbol)
+    return esc(expr)
 end
 
 end # module
