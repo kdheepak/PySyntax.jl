@@ -27,6 +27,8 @@ df = pd.DataFrame(
 @py df["John":"Jane"]
 ```
 
+See [notebooks](./notebooks) for examples.
+
 Py.jl provides a light wrapper on PyCall.jl
 
 Improvements, suggestions or contributions welcome!
