@@ -2,6 +2,8 @@ module Py
 
 using PyCall
 
+export @py
+
 function traverse!{T}(arg::T)::T
     return arg
 end
@@ -35,12 +37,12 @@ function traverse!(expr::Expr)
     return expr
 end
 
-macro Py(expr::Expr)
+macro py(expr::Expr)
     traverse!(expr)
     return esc(expr)
 end
 
-macro Py(expr::Symbol)
+macro py(expr::Symbol)
     return esc(expr)
 end
 
