@@ -29,7 +29,7 @@ df = pd.DataFrame(
 @py df["John":"Jane"]
 ```
 
-See [notebooks](./notebooks) for examples. See [JuliaPy/PyCall.jl#86](https://github.com/JuliaPy/PyCall.jl/issues/86) for the discussion on this subject.
+See [notebooks](./notebooks/Py.jl.ipynb) for examples. See [JuliaPy/PyCall.jl#86](https://github.com/JuliaPy/PyCall.jl/issues/86) for the discussion on this subject.
 
 Improvements, suggestions or contributions welcome!
 
