@@ -2,6 +2,8 @@
 
 Python-like syntax in [Julia](https://github.com/JuliaLang/julia). Py.jl provides a light wrapper on top of [PyCall.jl](https://github.com/JuliaPy/PyCall.jl) in the form of a macro.
 
+![](./img/screenshot.png)
+
 ### Installation
 
 Within Julia, just use the package manager to run `Pkg.clone("https://github.com/kdheepak/Py.jl")` to install the files.
