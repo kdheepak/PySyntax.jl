@@ -26,6 +26,9 @@ function traverse!(expr::Expr)
     end
 
     for (i, arg) in enumerate(expr.args)
+        if arg  == :(:)
+            expr.args[i] = :(pybuiltin("slice")(nothing, nothing, nothing))
+        end
         traverse!(expr.args[i])
     end
 
