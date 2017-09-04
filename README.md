@@ -1,4 +1,4 @@
-# PySyntax [![Travis-CI Build Status](https://travis-ci.org/kdheepak/PySyntax.jl.svg?branch=master)](https://travis-ci.org/kdheepak/PySyntax.jl) [![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)]()
+# PySyntax [![Travis-CI Build Status](https://travis-ci.org/kdheepak/PySyntax.jl.svg?branch=master)](https://travis-ci.org/kdheepak/PySyntax.jl) [![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)](https://ci.appveyor.com/project/kdheepak/pysyntax-jl)
 
 Python-like syntax in [Julia](https://github.com/JuliaLang/julia). PySyntax.jl provides a light wrapper on top of [PyCall.jl](https://github.com/JuliaPy/PyCall.jl) in the form of a macro.
 
