@@ -1,4 +1,4 @@
-module Py
+module PySyntax
 
 using PyCall
 

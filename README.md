@@ -1,12 +1,12 @@
-# Py [![Travis-CI Build Status](https://travis-ci.org/kdheepak/Py.jl.svg?branch=master)](https://travis-ci.org/kdheepak/Py.jl) [![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)]()
+# PySyntax [![Travis-CI Build Status](https://travis-ci.org/kdheepak/PySyntax.jl.svg?branch=master)](https://travis-ci.org/kdheepak/PySyntax.jl) [![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)]()
 
-Python-like syntax in [Julia](https://github.com/JuliaLang/julia). Py.jl provides a light wrapper on top of [PyCall.jl](https://github.com/JuliaPy/PyCall.jl) in the form of a macro.
+Python-like syntax in [Julia](https://github.com/JuliaLang/julia). PySyntax.jl provides a light wrapper on top of [PyCall.jl](https://github.com/JuliaPy/PyCall.jl) in the form of a macro.
 
 ![](./img/screenshot.png)
 
 ### Installation
 
-Within Julia, just use the package manager to run `Pkg.clone("https://github.com/kdheepak/Py.jl")` to install the files.
+Within Julia, just use the package manager to run `Pkg.clone("https://github.com/kdheepak/PySyntax.jl")` to install the files.
 Julia 0.5 or later is recommended.
 
 ### Usage
@@ -14,7 +14,7 @@ Julia 0.5 or later is recommended.
 In a session, type the following to export the `@py` macro.
 
 ```julia
-using Py
+using PySyntax
 ```
 
 The `@py` macro allows Python-like syntax
@@ -31,7 +31,7 @@ df = pd.DataFrame(
 @py df["John":"Jane"]
 ```
 
-See [notebooks](./notebooks/Py.jl.ipynb) for examples. See [JuliaPy/PyCall.jl#86](https://github.com/JuliaPy/PyCall.jl/issues/86) for the discussion on this subject.
+See [notebooks](./notebooks/PySyntax.jl.ipynb) for examples. See [JuliaPy/PyCall.jl#86](https://github.com/JuliaPy/PyCall.jl/issues/86) for the discussion on this subject.
 
 Improvements, suggestions or contributions welcome!
 

@@ -1,4 +1,4 @@
-using Py
+using PySyntax
 using Base.Test
 
 # write your own tests here
