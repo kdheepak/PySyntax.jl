@@ -1,4 +1,4 @@
-# Py
+# Py [![Build Status](https://travis-ci.org/kdheepak/Py.jl.svg?branch=master)](https://travis-ci.org/kdheepak/Py.jl)
 
 Python-like syntax in [Julia](https://github.com/JuliaLang/julia). Py.jl provides a light wrapper on top of [PyCall.jl](https://github.com/JuliaPy/PyCall.jl) in the form of a macro.
 
