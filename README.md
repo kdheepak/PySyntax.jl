@@ -1,4 +1,4 @@
-# Py [![Travis-CI Build Status](https://travis-ci.org/kdheepak/Py.jl.svg?branch=master)](https://travis-ci.org/kdheepak/Py.jl) [![Appveyor-CI Build Status](https://ci.appveyor.com/api/projects/status/github/kdheepak/Py-jl?branch=master&svg=true)](https://ci.appveyor.com/project/kdheepak/py-jl)
+# Py [![Travis-CI Build Status](https://travis-ci.org/kdheepak/Py.jl.svg?branch=master)](https://travis-ci.org/kdheepak/Py.jl) [![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)]()
 
 Python-like syntax in [Julia](https://github.com/JuliaLang/julia). Py.jl provides a light wrapper on top of [PyCall.jl](https://github.com/JuliaPy/PyCall.jl) in the form of a macro.
 
