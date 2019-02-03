@@ -1,6 +1,6 @@
 # PySyntax [![Travis-CI Build Status](https://travis-ci.org/kdheepak/PySyntax.jl.svg?branch=master)](https://travis-ci.org/kdheepak/PySyntax.jl) [![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)](https://ci.appveyor.com/project/kdheepak/pysyntax-jl)
 
-** This package is deprecated [JuliaLang/julia/issues/1974](https://github.com/JuliaLang/julia/issues/1974) has been merged and this functionality should be available in PyCall.jl. **
+** This package is deprecated [JuliaLang/julia/issues/1974](https://github.com/JuliaLang/julia/issues/1974) has been merged and this dot-overloading functionality has since been implemented in PyCall.jl with https://github.com/JuliaPy/PyCall.jl/commit/e4035b83148b296ddef0804177a970cf826dcd8d **
 
 Python-like syntax in [Julia](https://github.com/JuliaLang/julia). PySyntax.jl provides a light wrapper on top of [PyCall.jl](https://github.com/JuliaPy/PyCall.jl) in the form of a macro.
 
