@@ -1,7 +1,7 @@
 # PySyntax [![Travis-CI Build Status](https://travis-ci.org/kdheepak/PySyntax.jl.svg?branch=master)](https://travis-ci.org/kdheepak/PySyntax.jl) [![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)](https://ci.appveyor.com/project/kdheepak/pysyntax-jl)
 
 **This package is deprecated:**
-- [JuliaLang/julia#1974](https://github.com/JuliaLang/julia#1974) ("allow overloading of a.b field access syntax") has been fixed with the merging of [JuliaLang/julia#24960](https://github.com/JuliaLang/julia/pull/24960);
+- [JuliaLang/julia#1974](https://github.com/JuliaLang/julia/issues/1974) ("allow overloading of a.b field access syntax") has been fixed with the merging of [JuliaLang/julia#24960](https://github.com/JuliaLang/julia/pull/24960);
 - The dot-overloading functionality it enabled has since been implemented in PyCall.jl, with the merge of [JuliaPy/PyCall.jl#517](https://github.com/JuliaPy/PyCall.jl/pull/517).
 
 ----
